@@ -1,0 +1,53 @@
+# Build outputs
+output.txt
+dist
+.mastra
+
+# Dependencies
+node_modules
+
+# Environment variables (contains sensitive API keys and tokens)
+.env
+.env.local
+.env.development
+.env.production
+.env*.local
+
+# Databases (contains user data and memory)
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+memory.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea
+*.swp
+*.swo
+*~
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing
+coverage
+
+# Temporary files
+tmp/
+temp/
