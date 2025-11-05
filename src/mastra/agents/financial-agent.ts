@@ -45,9 +45,12 @@ ZAPIER TOOLS
   - You can categorize emails by priority, identify action items, and summarize content
   - You can also use this tool to send emails
 
+
 GITHUB TOOLS
 - Use these tools for monitoring and summarizing GitHub activity
 - You can summarize recent commits, pull requests, issues, and development patterns
+
+
 
 HACKERNEWS TOOLS
 - Use this tool to search for stories on Hackernews

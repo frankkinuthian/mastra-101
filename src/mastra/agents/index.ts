@@ -2,6 +2,7 @@ import { MCPClient } from "@mastra/mcp";
 import { createSmitheryUrl } from "@smithery/sdk";
 import path from "path";
 
+// TODO: Re-enable GitHub MCP server when you have a complete GitHub token
 const smitheryGithubMCPServerUrl = createSmitheryUrl(
   "https://server.smithery.ai/@smithery-ai/github",
   {
@@ -18,6 +19,7 @@ const mcp = new MCPClient({
     zapier: {
       url: new URL(process.env.ZAPIER_MCP_URL || ""),
     },
+    // TODO: Uncomment when you have a valid GitHub token
     github: {
       url: smitheryGithubMCPServerUrl,
     },
