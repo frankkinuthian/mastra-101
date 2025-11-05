@@ -7,6 +7,7 @@ import {
   aiContentWorkflow,
   parallelAnalysisWorkflow,
 } from "./workflows/content-workflow";
+import { conditionalWorkflow } from "./workflows/content-workflow";
 import { weatherAgent } from "./agents/weather-agent";
 import { financialAgent } from "./agents/financial-agent";
 import { memoryAgent } from "./agents/memory-agent";
@@ -24,6 +25,7 @@ export const mastra = new Mastra({
     contentWorkflow,
     aiContentWorkflow,
     parallelAnalysisWorkflow,
+    conditionalWorkflow,
   },
   agents: {
     weatherAgent,
